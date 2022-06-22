@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="10sp"
+tools:context=".PaypalActivity">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <EditText
+        android:id="@+id/edAmount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/payPal"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Enter amount"
+        android:inputType="textPersonName" />
+
+<Button
+    android:id="@+id/payPal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:background="#1565C0"
+    android:text="PAY WITH PAYPAL"
+    android:textColor="#fff"
+    android:textSize="16sp" />
+
+
+</LinearLayout>
+
+</RelativeLayout>

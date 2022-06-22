@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MERGIMS</string>
+    <string name="facebook_app_id">221203071988518</string>
+    <string name="aline_niyompire">Aline Niyompire</string>
+    <string name="credits">Credits:</string>
+    <string name="pacifique_tuyisabe">Pacifique Tuyisabe</string>
+    <string name="gas">Gas</string>
+    <string name="mobileerror">Enter a valid mobile</string>
+    <string name="cashpowererror">Enter a valid cashpower</string>
+    <string name="Smartcardnumbererror">Enter a valid Smartcardnumber</string>
+</resources>

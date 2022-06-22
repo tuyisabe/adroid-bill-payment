@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.user.mergimsV1">
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        tools:overrideLibrary="com.paypal.android.sdk.payments" />
+    //paypal codes
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Homepage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity android:name=".TvDetails_back" />
+        <activity android:name=".AirTimesDetails_back" />
+        <activity android:name=".All_Services_back" />
+        <activity android:name=".OthersDetails_back"/>
+        <activity android:name=".AirtimeForm_Tigo_back"/>
+        <activity android:name=".AirtimeForm_Mtn_back"/>
+        <activity android:name=".AirtimeForm_Air_back"/>
+        <activity android:name=".ElectricityForm_back"/>
+        <activity android:name=".StartimeForm_back"/>
+        <activity android:name=".SplashActivity_back"/>
+
+        <activity android:name=".TvDetails" />
+        <activity android:name=".AirTimesDetails" />
+        <activity android:name=".All_Services" />
+        <activity android:name=".FacebookLogin1" />
+        <activity android:name=".PaypalActivity" />
+        <activity android:name=".PaymentDetails" />
+        <activity android:name=".OthersDetails"/>
+        <activity android:name=".AirtimeForm_Tigo"/>
+        <activity android:name=".AirtimeForm_Mtn"/>
+        <activity android:name=".AirtimeForm_Air"/>
+        <activity android:name=".ElectricityForm"/>
+        <activity android:name=".StartimeForm"/>
+        <activity android:name=".DstvForm"/>
+        <activity android:name=".WaterForm"/>
+        <activity android:name=".BusForm"/>
+        <activity android:name=".GasForm"/>
+        <activity android:name=".SplashActivity">
+        </activity>
+    </application>
+
+</manifest>
